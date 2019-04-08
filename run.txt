@@ -1,1 +1,7 @@
 npm run sass
+
+Update website:
+git add .
+git commit -m "rewrite the about page"
+git push -u origin master
+npm run deploy
