@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "This is a Mei Ye portfolio",
   "main": "index.js",
+  "homewpage": "https://Maymeiye.github.io/Mei-Ye-Website",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Mei Ye",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "node-sass": "^4.11.0"
   }
 }
