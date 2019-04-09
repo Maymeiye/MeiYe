@@ -1,5 +1,12 @@
+
+
+
 npm run sass
 
+npm init
+npm i gh-pages
+Set up homepage
+ 
 Update website:
 git add .
 git commit -m "rewrite the about page"
