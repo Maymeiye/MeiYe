@@ -6,6 +6,7 @@ npm run sass
 npm init
 npm i gh-pages
 Set up homepage
+
  
 Update website:
 git add .
